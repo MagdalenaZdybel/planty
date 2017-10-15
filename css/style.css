@@ -1,0 +1,243 @@
+nav {
+	text-align: center; /*to nam wyśrodkuje tekst*/
+}
+ul li {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 24px;
+    /*list-style-type: none;*/
+    display: inline; /* to nam zrobi jedną linię */
+	margin: 32px 140px auto -35px;
+		}
+/*.kaktus {
+	background-image: url("planty-assets/img-top.jpg");
+}*/
+.sec_1 {
+	position:relative;
+	width: 900px;
+	margin: 0px auto; 
+	height: 600px;
+}
+.foto-one {
+	/*background-image: url("planty-assets/img-top.jpg");
+	margin: 116px auto auto 203px;
+	width: 565px;
+	height: 770px;
+	border: */
+	position: absolute;
+}
+.border {
+ 	border: 2px solid #b7dbc8;
+    height: 478px;
+    width: 350px;
+    position: absolute;
+    right: 77px;
+    top: 21px;
+}
+.telefon {
+	left: 71px;
+    position: absolute;
+    top: 86px;}
+
+.telefon img {
+	width: 320px;
+}
+#logo {
+	width: 400px;
+	margin-left: 64px;
+	position: relative;
+}
+#logo img {
+	margin-left: -112px;
+    margin-top: 52px;
+    position: relative;
+    width: 395px;
+}
+p {
+	font-family: "Muli", serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+.foto {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	float: left;
+}
+.sec_2 {
+	width: 450px;
+	height: 500px;
+	float: right;
+}
+.sec_3 {
+	background-image: url("../planty-assets/bg2x.jpg");
+	height: 264px;
+	position: relative;
+}
+.sec_3 p {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	left: 432px;
+	top: 83px;
+}
+.do_p {
+	position: relative;
+	width: 900px;
+	height: 264px;
+	margin: 0px auto;
+}
+.sec_4 {
+	width: 900px;
+	position: relative;
+	height: 500px;
+	margin: 0 auto;
+}
+.naglowek h1 {
+	font-size: 60px;
+	font-family: 'Playfair Display';
+	font-style: italic;
+	margin-left: -55px;
+}
+#download {
+	width: 380px;
+	height: 71px;
+	background-color: #b7dbc8;
+	color: white;
+	border-style: groove;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: -20px;
+}
+.div_osoba {
+	border: 4px solid #b7dbc8;
+	width: 350px;
+	height: 224px;
+	position: relative;
+}
+.div_osoba img {
+	border: 4px solid #b7dbc8;
+	border-radius: 281px 281px;
+	margin-left: -80px;
+	float: left;
+	position: relative;
+	margin-top: -50px;
+ 
+}
+.div_osoba h2 {
+	font-family: 'Playfair Display', Georgia;
+	font-size: 25px;
+	font-style: italic;
+	margin: 45px auto auto 95px;
+}
+.div_osoba h4 {
+	font-family: "Muli", serif;
+	text-transform: uppercase;
+	display: inline;
+	margin-left: 20px;
+}
+.div_osoba p {
+	/*margin: 65px 3px 15px 90px;*/
+	font-size: 15px;
+	clear: right;
+}
+.Albert {
+	margin: -140px auto auto 390px;
+}
+.formularz {
+	width: 900px;
+	position: relative;
+	height: 680px;
+	margin: -15px auto;
+}
+.formularz h1 {
+	font-size: 60px;
+	font-family: 'Playfair Display';
+	font-style: italic; 
+	margin-top: -50px;
+	margin-left: -50px;
+}
+.fonty_formularza {
+	font-size: 18px;
+	font-family: 'Muli';
+	width: 440px;
+	margin-left: -50px;
+}
+
+#name, #emailData {
+	border: 2px solid black;
+    margin: 0 0 10px;
+    width: 400px;
+}
+#message {
+	border: 2px solid black;
+    margin: 0 0 10px;
+    width: 400px;
+}
+#send {
+	width: 400px;
+	height: 71px;
+	background-color: #b7dbc8;
+	color: white;
+	border-style: groove;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+.foto_ramka {
+	background-image: url("../planty-assets/img-bottom.jpg");
+	background-repeat: no-repeat;
+	height: 440px;
+	position: relative;
+	margin-left: 420px;
+	margin-top: -425px;
+}
+.border_2 {
+	margin-left: -26px;
+	margin-top: -23px;
+	border: 4px solid #b7dbc8;
+    height: 425px;
+    width: 350px;
+    position: absolute;
+}
+.tresc1 {
+    font-size: 13px;
+    margin-left: -19px;
+    margin-top: 50px;
+    width: 345px;
+}
+.test {
+	font-family: "Muli";
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: -59px;
+}
+footer {
+    background-color: #b7dbc8;
+    height: 80px;
+    position: relative;
+    color: white;
+    font-family: "Muli";
+    font-size: 12px;
+}
+.logusie_all {
+	margin-right: 134px;
+	float: right;
+	padding: 20px 10px;
+}
+#logusie {
+	height: 35px;
+}
+#stopka {
+	float: left;
+	margin-left: -50px;
+	padding: 10px;
+}
+.footer {
+	width: 900px;
+	margin: 0px auto;
+}
